@@ -1,1 +1,41 @@
 /* Soluzione qui */
+
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    #topbar{
+        justify-content: left;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        li{
+            flex-basis: calc(100% / 3 - (20px * 2) / 3);    
+            flex-shrink: 0;
+            min-width: 50px;
+        }
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .social-networks .btn{
+        width: 100%;
+    }
+
+    .presentation{
+
+        img{
+            float: left;
+            margin-right: 1rem;
+        }
+
+
+    }
+
+
+}
