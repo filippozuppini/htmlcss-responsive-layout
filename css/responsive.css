@@ -102,3 +102,23 @@
     }
 
 }
+
+
+/* MOBILE BONUS */
+
+@media screen and (min-width: 576px) {
+
+    .social-networks .btn{
+        width: 100%;
+    }
+
+    .presentation{
+
+        img{
+            float: left;
+            margin-right: 1rem;
+        }
+
+
+    }
+}
