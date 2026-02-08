@@ -3,8 +3,23 @@
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+
+    .container {
+	    margin: 1rem 2rem;
+    }
+
+
     #topbar{
         justify-content: left;
+    }
+
+    .recipe-title h2{
+        font-size: 2rem;
+    }
+    
+
+    .recipe-origin{
+        display: inline-block;
     }
 
     .quick-notes ul{
@@ -37,5 +52,11 @@
 
     }
 
+
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 768px){
 
 }
